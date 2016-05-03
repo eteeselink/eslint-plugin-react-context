@@ -1,8 +1,7 @@
 {
-  "name": "eslint-plugin-react",
-  "version": "5.0.1",
-  "author": "Yannick Croissant <yannick.croissant+npm@gmail.com>",
-  "description": "React specific linting rules for ESLint",
+  "name": "eslint-plugin-react-context",
+  "version": "0.0.0",
+  
   "main": "index.js",
   "scripts": {
     "coveralls": "cat ./reports/coverage/lcov.info | coveralls",
@@ -16,12 +15,6 @@
     "index.js",
     "lib"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yannickcr/eslint-plugin-react"
-  },
-  "homepage": "https://github.com/yannickcr/eslint-plugin-react",
-  "bugs": "https://github.com/yannickcr/eslint-plugin-react/issues",
   "devDependencies": {
     "babel-eslint": "6.0.2",
     "coveralls": "2.11.9",
